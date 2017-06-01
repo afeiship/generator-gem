@@ -1,3 +1,3 @@
-module Templates
+module <%= ProjectName %>
   VERSION = "0.1.0"
 end

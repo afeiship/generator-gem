@@ -1,5 +1,5 @@
 require "templates/version"
 
-module Templates
+module <%= ProjectName %>
   # Your code goes here...
 end
