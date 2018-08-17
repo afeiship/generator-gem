@@ -1,6 +1,6 @@
 {
-  "name": "generator-fei-gem",
-  "version": "0.0.0",
+  "name": "generator-gem",
+  "version": "0.0.1",
   "description": "Generator ruby gem with my options.",
   "homepage": "https://github.com/afeiship",
   "author": {
@@ -48,6 +48,6 @@
       "node": true
     }
   },
-  "repository": "git@github.com:afeiship/generator-fei-gem.git",
+  "repository": "git@github.com:afeiship/generator-gem.git",
   "license": "MIT"
 }
