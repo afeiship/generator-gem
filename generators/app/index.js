@@ -20,11 +20,6 @@ module.exports = class extends Generator {
       type:'input',
       name:'description',
       message:'Your project description?'
-    },
-    {
-      type:'input',
-      name:'summary',
-      message:'Your project summary?'
     }];
 
     return this.prompt(prompts).then(function (props) {

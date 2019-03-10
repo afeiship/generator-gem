@@ -9,7 +9,6 @@ Gem::Specification.new do |spec|
   spec.authors       = ["afeiship"]
   spec.email         = ["1290657123@qq.com"]
 
-  spec.summary       = %q{<%= summary %>}
   spec.description   = %q{<%= description %>}
   spec.homepage      = "https://github.com/afeiship/<%= project_name %>"
 
