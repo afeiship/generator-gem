@@ -40,7 +40,7 @@ module.exports = class extends Generator {
 
   writing() {
     const { project_name, short_name, ns_name } = this.props;
-    yoHelper.rename(this, (path) => {
+    yoHelper.renameBy(this, (path) => {
       path.basename = path.basename.replace('templates', project_name);
       path.basename = path.basename.replace('tmpl', short_name);
       path.dirname = path.dirname.replace('templates', ns_name);
