@@ -1,5 +1,2 @@
 require "templates/version"
-
-module <%= ProjectName %>
-  # Your code goes here...
-end
+require "<%= ns_name %>/<%= short_name %>"

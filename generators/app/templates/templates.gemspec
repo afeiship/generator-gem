@@ -5,7 +5,7 @@ require 'templates/version'
 
 Gem::Specification.new do |spec|
   spec.name          = "<%= project_name %>"
-  spec.version       = <%= ProjectName %>::VERSION
+  spec.version       = <%= NsName %>::<%= ShortName %>::VERSION
   spec.authors       = ["afeiship"]
   spec.email         = ["1290657123@qq.com"]
 

@@ -18,6 +18,11 @@ module.exports = class extends Generator {
       },
       {
         type: 'input',
+        name: 'ns_name',
+        message: 'Your namespace name?'
+      },
+      {
+        type: 'input',
         name: 'description',
         message: 'Your project description?'
       }
@@ -26,6 +31,7 @@ module.exports = class extends Generator {
     return this.prompt(prompts).then(
       function(props) {
         // To access props later use this.props.someAnswer;
+        props.short_name = yoHelper.shortName();
         this.props = props;
         yoHelper.rewriteProps(props);
       }.bind(this)
@@ -33,7 +39,13 @@ module.exports = class extends Generator {
   }
 
   writing() {
-    yoHelper.rename(this, 'templates', this.props.project_name);
+    const { project_name, short_name, ns_name } = this.props;
+    yoHelper.rename(this, (path) => {
+      path.basename = path.basename.replace('templates', project_name);
+      path.basename = path.basename.replace('tmpl', short_name);
+      path.dirname = path.dirname.replace('templates', ns_name);
+      return path;
+    });
     this.fs.copyTpl(
       this.templatePath('{.*,*,bin/*,lib/**/*}'),
       this.destinationPath('.'),
