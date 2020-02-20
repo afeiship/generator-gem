@@ -3,12 +3,13 @@
 
 ## Installation
 ```bash
-npm install -g yo
-npm install -g afeiship/generator-fei-gem
+git clone git@github.com:afeiship/generator-gem.git
+cd generator-gem
+npm link
 ```
 
-Then generate your new project:
+> Then generate your new project:
 
 ```bash
-yo fei-gem
+yo gem
 ```
