@@ -54,6 +54,6 @@ module.exports = class extends Generator {
   }
 
   end() {
-    console.log('Enjoy codeing ~ :)');
+    console.log('Enjoy codeing 🎉 🍰');
   }
 };
