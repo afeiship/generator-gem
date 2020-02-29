@@ -15,3 +15,12 @@ gem '<%= project_name %>', git: 'git@github.com:afeiship/<%= project_name %>.git
 
 # hello world
 ```
+
+## build/publish
+```shell
+# build
+gem build <%= project_name %>.gemspec
+
+# publish
+gem push <%= project_name %>-0.1.0.gem
+```
