@@ -11,7 +11,7 @@ gem '<%= project_name %>', git: 'git@github.com:afeiship/<%= project_name %>.git
 
 ## usage
 ```rb
-<%= ns_name %>::<%= short_name %>::hello
+<%= NsName %>::<%= ShortName %>::hello
 
 # hello world
 ```
