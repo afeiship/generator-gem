@@ -6,9 +6,11 @@ require '<%= ns_name %>/version'
 Gem::Specification.new do |spec|
   spec.name          = "<%= project_name %>"
   spec.version       = <%= NsName %>::<%= ShortName %>::VERSION
+  spec.licenses      = ["MIT"]
   spec.authors       = ["afeiship"]
   spec.email         = ["1290657123@qq.com"]
 
+  spec.summary       = %q{<%= description %>}
   spec.description   = %q{<%= description %>}
   spec.homepage      = "https://github.com/afeiship/<%= project_name %>"
 
