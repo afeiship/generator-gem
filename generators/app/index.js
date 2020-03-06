@@ -19,7 +19,8 @@ module.exports = class extends Generator {
       {
         type: 'input',
         name: 'ns_name',
-        message: 'Your namespace name?'
+        message: 'Your namespace name?',
+        default: 'nx'
       },
       {
         type: 'input',
