@@ -1,2 +1,2 @@
-require "<%= ns_name %>/version"
-require "<%= ns_name %>/<%= short_name %>"
+require_relative "./<%= ns_name %>/version"
+require_relative "./<%= ns_name %>/<%= short_name %>"
