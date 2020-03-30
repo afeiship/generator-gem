@@ -24,3 +24,6 @@ gem build <%= project_name %>.gemspec
 # publish
 gem push <%= project_name %>-0.1.0.gem
 ```
+
+## rspec
+- https://rspec.info/
