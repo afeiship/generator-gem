@@ -1,5 +1,5 @@
 {
-  "name": "generator-gem",
+  "name": "@jswork/generator-gem",
   "version": "1.0.0",
   "description": "Generator ruby gem with my options.",
   "homepage": "https://github.com/afeiship",

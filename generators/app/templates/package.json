@@ -9,7 +9,7 @@
     "clean": "rm -rf *.gem",
     "build": "gem build *.gemspec",
     "pubpush": "gem push *.gem",
-    "unpublish":"gem yank nx-http -v '0.1.0'"
+    "unpublish":"gem yank <%= project_name %> -v '0.1.0'"
   },
   "repository": {
     "type": "git",
