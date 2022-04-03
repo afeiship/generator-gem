@@ -22,5 +22,5 @@
   "bugs": {
     "url": "https://github.com/afeiship/<%= project_name %>/issues"
   },
-  "homepage": "https://github.com/afeiship/<%= project_name %>#readme"
+  "homepage": "https://js.work"
 }
